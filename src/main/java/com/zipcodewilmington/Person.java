@@ -3,7 +3,8 @@ package com.zipcodewilmington;
 /**
  * Created by leon on 1/24/18.
  */
-public class Person {
+public class Person
+{
     private final String firstName;
     private final String lastName;
 
@@ -13,11 +14,13 @@ public class Person {
     }
 
     // why is this called a GETTER??
-    public String getFirstName() {
+    public String getFirstName()
+    {
         return firstName;
     }
 
-    public String getLastName() {
+    public String getLastName()
+    {
         return lastName;
     }
 
